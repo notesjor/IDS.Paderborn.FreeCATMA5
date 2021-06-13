@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDS.Paderborn.FreeCATMA5", "IDS.Paderborn.FreeCATMA5.csproj", "{7D047195-0D2F-4F98-AB3B-51E46FDB0C1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D047195-0D2F-4F98-AB3B-51E46FDB0C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D047195-0D2F-4F98-AB3B-51E46FDB0C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D047195-0D2F-4F98-AB3B-51E46FDB0C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D047195-0D2F-4F98-AB3B-51E46FDB0C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2BE3A99-C3B2-44AE-AAAC-4204848ED4F4}
+	EndGlobalSection
+EndGlobal
