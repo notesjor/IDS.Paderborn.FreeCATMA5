@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace IDS.Paderborn.FreeCATMA5
+namespace IDS.Paderborn.FreeCATMA5.Model.v1
 {
   public class Document
   {
