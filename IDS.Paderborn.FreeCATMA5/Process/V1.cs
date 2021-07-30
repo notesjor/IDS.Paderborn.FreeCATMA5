@@ -82,6 +82,39 @@ namespace IDS.Paderborn.FreeCATMA5.Process
         Annotations = annotations,
         Text = plaintext
       }), Encoding.UTF8);
+      File.WriteAllText(Path.Combine(output, Path.GetFileName(file).Replace(".xml", ".snippet.txt")), MakeSnippetFile(plaintext, annotations), Encoding.UTF8);
+    }
+
+    private static string MakeSnippetFile(string plaintext, List<Annotation> annotations)
+    {
+      var stb = new StringBuilder();
+      stb.AppendLine("Annotator\tFrom\tTo\tSnippet\tValues");
+      // ReSharper disable once ForeachCanBePartlyConvertedToQueryUsingAnotherGetEnumerator
+      foreach (var a in annotations)
+      {
+        var snippet = plaintext.Substring(a.From, a.To - a.From).Replace("\t", " ");
+        var line =
+          string.Join("\t",
+                      new[]
+                      {
+                        a.Annotator, 
+                        a.From.ToString(), 
+                        a.To.ToString(), 
+                        snippet, 
+                        string.Join("/|/", a.ValueChain)
+                      });
+
+        line = line.Replace("\r\n", " ").Replace("\r", " ").Replace("\n", " ");
+        int length;
+        do
+        {
+          length = line.Length;
+          line = line.Replace("  ", " ");
+        } while (length != line.Length);
+        stb.AppendLine(line);
+      }
+
+      return stb.ToString();
     }
 
     private static void BodyLoop(HtmlDocument xml, HtmlNode htmlNode, ref StringBuilder text, ref List<Annotation> annoValues)
