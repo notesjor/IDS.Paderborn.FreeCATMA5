@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "IDS.Paderborn.FreeCATMA5.Patcher": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\Jan\\Desktop\\CATMA\\AK C:\\Users\\Jan\\Desktop\\CATMA\\PK"
+    }
+  }
+}
