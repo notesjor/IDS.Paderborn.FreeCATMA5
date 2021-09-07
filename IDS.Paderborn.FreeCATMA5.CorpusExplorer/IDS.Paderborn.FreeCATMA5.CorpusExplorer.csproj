@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>IDS.Paderborn.FreeCATMA5</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BitCutStudios.CorpusExplorer">
+      <HintPath>..\..\..\CorpusExplorerV2\CorpusExplorer\CorpusExplorer.Sdk\bin\Debug\BitCutStudios.CorpusExplorer.dll</HintPath>
+    </Reference>
+    <Reference Include="CorpusExplorer.Sdk">
+      <HintPath>..\..\..\CorpusExplorerV2\CorpusExplorer\CorpusExplorer.Sdk\bin\Debug\CorpusExplorer.Sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="CorpusExplorer.Sdk.Diagnostic">
+      <HintPath>..\..\..\CorpusExplorerV2\CorpusExplorer\CorpusExplorer.Sdk\bin\Debug\CorpusExplorer.Sdk.Diagnostic.dll</HintPath>
+    </Reference>
+    <Reference Include="CorpusExplorer.Sdk.Extern.Json">
+      <HintPath>..\..\..\CorpusExplorerV2\CorpusExplorer\CorpusExplorer.Sdk.Extern.Json\bin\Debug\CorpusExplorer.Sdk.Extern.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
