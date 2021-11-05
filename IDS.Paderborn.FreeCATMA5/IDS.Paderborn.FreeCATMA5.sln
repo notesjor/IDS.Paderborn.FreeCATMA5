@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDS.Paderborn.FreeCATMA5", "IDS.Paderborn.FreeCATMA5.csproj", "{7D047195-0D2F-4F98-AB3B-51E46FDB0C1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDS.Paderborn.FreeCATMA5.CorpusExplorer", "..\IDS.Paderborn.FreeCATMA5.CorpusExplorer\IDS.Paderborn.FreeCATMA5.CorpusExplorer.csproj", "{06885434-F676-498A-B846-5C1E15216E3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDS.Paderborn.FreeCATMA5.CorpusExplorer", "..\IDS.Paderborn.FreeCATMA5.CorpusExplorer\IDS.Paderborn.FreeCATMA5.CorpusExplorer.csproj", "{06885434-F676-498A-B846-5C1E15216E3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDS.Paderborn.FreeCATMA5.Patcher", "..\IDS.Paderborn.FreeCATMA5.Patcher\IDS.Paderborn.FreeCATMA5.Patcher.csproj", "{5DDDD343-6EFF-4650-9759-5A7514D5166F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDS.Paderborn.FreeCATMA5.Patcher", "..\IDS.Paderborn.FreeCATMA5.Patcher\IDS.Paderborn.FreeCATMA5.Patcher.csproj", "{5DDDD343-6EFF-4650-9759-5A7514D5166F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,16 +17,13 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7D047195-0D2F-4F98-AB3B-51E46FDB0C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7D047195-0D2F-4F98-AB3B-51E46FDB0C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7D047195-0D2F-4F98-AB3B-51E46FDB0C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7D047195-0D2F-4F98-AB3B-51E46FDB0C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D047195-0D2F-4F98-AB3B-51E46FDB0C1A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{06885434-F676-498A-B846-5C1E15216E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{06885434-F676-498A-B846-5C1E15216E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{06885434-F676-498A-B846-5C1E15216E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{06885434-F676-498A-B846-5C1E15216E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06885434-F676-498A-B846-5C1E15216E3C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{5DDDD343-6EFF-4650-9759-5A7514D5166F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5DDDD343-6EFF-4650-9759-5A7514D5166F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5DDDD343-6EFF-4650-9759-5A7514D5166F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5DDDD343-6EFF-4650-9759-5A7514D5166F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DDDD343-6EFF-4650-9759-5A7514D5166F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

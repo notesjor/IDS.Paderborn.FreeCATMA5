@@ -4,6 +4,12 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>IDS.Paderborn.FreeCATMA5</RootNamespace>
+    <Configurations>Release;Debug</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <OutputPath>C:\Projekte\IDS\IDS.Paderborn.FreeCATMA5\IDS.Paderborn.FreeCATMA5.CorpusExplorer\bin\Debug\net5.0\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>

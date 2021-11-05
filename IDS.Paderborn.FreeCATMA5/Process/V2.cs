@@ -104,7 +104,8 @@ namespace IDS.Paderborn.FreeCATMA5.Process
     private static void BodyLoopSeg(HtmlDocument xml, HtmlNode htmlNode, ref StringBuilder text, ref List<Annotation> annoValues)
     {
       var @from = text.Length;
-      text.AppendLine(htmlNode.InnerText);
+      text.Append(htmlNode.InnerText);
+      text.Append(" ");
       var @to = text.Length;
 
       var ana = htmlNode.GetAttributeValue("ana", "");
@@ -176,7 +177,8 @@ namespace IDS.Paderborn.FreeCATMA5.Process
 
     private static void BodyLoopText(HtmlNode htmlNode, ref StringBuilder text)
     {
-      text.AppendLine(htmlNode.InnerText);
+      text.Append(htmlNode.InnerText);
+      text.Append(" ");
     }
 
     private static string GetLayerName(HtmlNode node)

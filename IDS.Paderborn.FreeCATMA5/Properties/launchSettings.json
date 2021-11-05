@@ -2,7 +2,7 @@
   "profiles": {
     "IDS.Paderborn.FreeCATMA5": {
       "commandName": "Project",
-      "commandLineArgs": "C:\\Users\\Jan\\Desktop\\CATMA\\PK C:\\Users\\Jan\\Desktop\\CATMA\\AK",
+      "commandLineArgs": "C:\\Users\\Jan\\Desktop\\CATMA\\TEST",
       "workingDirectory": "C:\\Users\\Jan\\Desktop\\CATMA\\"
     }
   }

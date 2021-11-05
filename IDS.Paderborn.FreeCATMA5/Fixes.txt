@@ -1,0 +1,101 @@
+Stile und Muster	Stile und Muster
+Anspielen	Anspielen
+ANSP-Schema	ANSP-Schema
+Handlungen des Widersprechens, des Widerlegens und der Gegenwehr	Handlungen des Widerspruchs, des Widerlegens und der Gegenwehr
+WI Argumentatives Widersprechen - neu	WI (argumentatives) Widersprechen und Widerlegen
+WI-Prämisse Widerstand	WI-Prämisse Widerstand
+WI-vollständig	WI-vollständig
+WI Konklusion Widerstand	WI Konklusion Widerstand
+Konklusion-Widerstand-deont	Konklusion-Widerstand-deont
+SW Handlungen der Gegenwehr	SW Handlungen der Gegenwehr
+SW-auffordern --&gt; fliegt später raus --&gt; wird reanimiert	SW-(auf-)fordern
+SW-auffordern --> fliegt später raus --> wird reanimiert	SW-(auf-)fordern
+Layout	Layout
+(Zwischen-)Überschriften	(Zwischen-)Überschriften
+Sachverhaltskonstitution	Sachverhaltskonstitution
+Gegenwart beschreiben und diagnostizieren	Gegenwart beschreiben und diagnostizieren
+GE-Nennen und Zeigen	GE-Nennen und Zeigen
+GE-vollständig	GE-vollständig
+Beziehungskonstitution	Beziehungskonstitution
+Gegnergruppe exkludierend (Faschistenhäuptlinge, SA-Männer)	Gegnergruppe exkludierend
+GG-exklu-pass	GG-exklu-pass
+GE-Indikator	GE-Indikator
+Fremdgruppe inkludierend (Arbeiterschaft, notleidende Ostelber)	Fremdgruppe inkludierend
+FG-inklu Nennen und Zeigen	FG-inklu Nennen und Zeigen
+FG-inklu Namen	FG-inklu Namen
+FG-inklu Charakterisieren	FG-inklu Charakterisieren
+Selbstkonstitution	Selbstkonstitution
+Selbstzuordnung	Selbstzuordnung
+SELB Namen (die deutsche Friedensfront)	SELB Namen
+GG-exklu Nennen und Zeigen	GG-exklu Nennen und Zeigen
+GG-exklu Charakterisieren	GG-exklu Charakterisieren
+SELB Nennen und Zeigen (das deutsche Volk, die Fabrik, ich, wir, man, viele, alle)	SELB Nennen und Zeigen
+Fremdgruppe exkludierend	Fremdgruppe exkludierend
+FG-exklu Namen	FG-exklu Namen
+GG-exklu Namen	GG-exklu Namen
+Zitate	Zitate
+Adressat inkludierend (Kollegen, Genossen)	Adressat inkludierend
+AD-inklu Nennen und Zeigen	AD-inklu Nennen und Zeigen
+FG-exklu Nennen und Zeigen	FG-exklu Nennen und Zeigen
+Ironisieren	Ironisieren
+IRON-vollständig	IRON-vollständig
+IRON-Ankerpunkt	IRON-Ankerpunkt
+WI-Stützung	WI-Stützung
+ETHÄSTH-Zustimmen	ETHÄSTH-Zustimmen
+DEONT-Abraten	DEONT-Abraten
+Adressat Verständnis (explikativ)	Adressat Verständnis (explikativ)
+AD-part-allgemein	AD-part-allgemein
+AD-part-explanans	AD-part-explanans
+AD-part-explanandum	AD-part-explanandum
+IND-epistemisch	IND-epistemisch
+SW-warnen	SW-warnen
+SW-vorwerfen (vorher anklagen)	SW-vorwerfen
+SW-(auf-)fordern --&gt; jetzt nur noch fordern	SW-fordern
+SW-(auf-)fordern --> jetzt nur noch fordern	SW-fordern
+Vergangenheit schildern	Vergangenheit schildern
+VE-vollständig	VE-vollständig
+VE-Nennen und Zeigen	VE-Nennen und Zeigen
+VE-Indikator	VE-Indikator
+AD-inklu Charakterisieren	AD-inklu Charakterisieren
+WI-Prämisse Gegnergruppe	WI-Prämisse Gegnergruppe
+WI-Indikator	WI-Indikator
+EPISTEM-Bestreien	EPISTEM-Bestreiten
+EPISTEM-Belegen	EPISTEM-Belegen
+Zukunft entwerfen	Zukunft entwerfen
+ZU-vollständig	ZU-vollständig
+ZU-Nennen und Zeigen	ZU-Nennen und Zeigen
+Adressat exkludierend (ihr Herren)	Adressat exkludierend
+AD-exklu Namen	AD-exklu Namen
+SELB Charakterisieren (Satz, Relativsatz)	SELB Charakterisieren
+FG-exklu Charakterisieren	FG-exklu Charakterisieren
+konklusion-Widerstand-epistem	Konklusion-Widerstand-epistem
+DEONT-Anraten	DEONT-Anraten
+ZU-Indikator	ZU-Indikator
+Konklusion-Widerstand-ethästh	Konklusion-Widerstand-ethästh
+AD-exklu Nennen und Zeigen	AD-exklu Nennen und Zeigen
+AD-exklu Charakterisieren	AD-exklu Charakterisieren
+AD-inklu Namen	AD-inklu Namen
+ANSP-Diskurs	ANSP-Diskurs
+WI Konklusion Gegnergruppe	WI Konklusion Gegnergruppe
+Konklusion-Gegner-deont	Konklusion-Gegner-deont
+Konklusion-Gegner-epistem	Konklusion-Gegner-epistem
+STÜTZ-Kontrastieren	STÜTZ-Kontrastieren
+ETHÄSTH-Zurückweisen	ETHÄSTH-Zurückweisen
+Konklusion-Gegner-ethästh	Konklusion-Gegner-ethästh
+WI Argumentieren	
+ARG-Bezug --&gt; fliegt später raus	
+ARG-Bezug --> fliegt später raus	
+ARG-folgern	
+ZU-Charakterisieren-fliegt später raus	
+SW-(auf-)fordern --&gt; jetzt nur noch "fordern"	SW-fordern
+SW-(auf-)fordern --> jetzt nur noch "fordern"	SW-fordern
+ARG-vollständig	
+ARG-begründen	
+ARG-Indikator	
+WI-Konklusion --&gt; alt, fliegt später raus	
+WI-Konklusion --> alt, fliegt später raus	
+WI Widersprechen durch Substituieren (Nicht-X-sondern-Y-Struktur)	
+WI-Bezugsäußerung	
+Wi-Widerspruch	
+SW-kontrastieren --&gt; fliegt später raus	
+SW-kontrastieren --> fliegt später raus	
