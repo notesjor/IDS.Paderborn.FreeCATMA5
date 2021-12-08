@@ -6,6 +6,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using HtmlAgilityPack;
+using IDS.Paderborn.FreeCATMA5.Helper;
 using IDS.Paderborn.FreeCATMA5.Model.v2;
 using Newtonsoft.Json;
 
@@ -135,6 +136,7 @@ namespace IDS.Paderborn.FreeCATMA5.Process
         {
           annoValues.Add(new Annotation
           {
+            Annotator = EnableAnonymizer ? _anonymize.Anonymize(annotator) : annotator,
             From = @from,
             Layer = $"Ebene {(i+1):D2}",
             To = @to,
@@ -143,6 +145,9 @@ namespace IDS.Paderborn.FreeCATMA5.Process
         }
       }
     }
+
+    private static AnonymizeHelper _anonymize = new AnonymizeHelper();
+    public static bool EnableAnonymizer { get; set; } = false;
 
     private static void FindParentValues(HtmlNode current, ref List<string> valueChain, ref HtmlNodeCollection htmlNodeCollection)
     {

@@ -6,7 +6,6 @@ namespace IDS.Paderborn.FreeCATMA5.Model.v1
   {
     public string Annotator { get; set; }
     public List<string> ValueChain { get; set; }
-    public string Value { get; set; }
     public int From { get; set; }
     public int To { get; set; }
   }

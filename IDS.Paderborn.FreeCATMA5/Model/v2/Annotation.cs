@@ -28,5 +28,6 @@ namespace IDS.Paderborn.FreeCATMA5.Model.v2
 
     public int From { get; set; }
     public int To { get; set; }
+    public string Annotator { get; set; }
   }
 }
