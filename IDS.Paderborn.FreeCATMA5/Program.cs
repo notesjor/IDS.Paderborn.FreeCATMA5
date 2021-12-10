@@ -25,7 +25,7 @@ namespace IDS.Paderborn.FreeCATMA5
         // Konvertierung von Unterverzeichnissen
         foreach (var dir in dirs)
         {
-          V1.Process(dir);
+          //V1.Process(dir);
           V2.Process(dir);
         }
       }
