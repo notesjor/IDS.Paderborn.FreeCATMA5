@@ -19,6 +19,7 @@ namespace IDS.Paderborn.FreeCATMA5
         var files = Directory.GetFiles(arg, "*_v2_valid.json", SearchOption.TopDirectoryOnly);
         var subCorpus = arg.Replace(Path.GetDirectoryName(arg), "").Replace("\\", "").Replace("/", "");
         var meta = File.ReadAllLines(Path.Combine(arg, "Metadata.tsv"), Encoding.UTF8).Select(x=>x.Split("\t", StringSplitOptions.None)).ToArray();
+        var head = meta[0];
 
         foreach (var file in files)
         {
@@ -35,25 +36,11 @@ namespace IDS.Paderborn.FreeCATMA5
             var corpus = import.Execute(new[] {file}).First();
 
             var dsel = corpus.DocumentGuids.Single();
-            corpus.SetDocumentMetadata(dsel, new Dictionary<string, object>
-            {
-              {"SubCorpus", entry[0]},
-              {"SubCorpusID", entry[1]},
-              {"Filename", entry[2]},
-              {"Textsorte", entry[3]},
-              {"Autor", entry[4]},
-              {"Herausgeber", entry[5]},
-              {"Titel", entry[6]},
-              {"Untertitel", entry[7]},
-              {"Ort", entry[8]},
-              {"Verlag", entry[9]},
-              {"Jahr", entry[10]},
-              {"Seiten", entry[11]},
-              {"Akteur", entry[12]},
-              {"Entstehung", entry[13]},
-              {"Entstehung (genau)", entry[14]},
-              {"Seitenzahlen", entry[15]}
-            });
+            var dmeta = new Dictionary<string, object>();
+            for (var i = 0; i < head.Length; i++)
+              dmeta.Add(head[i], entry[i]);
+
+            corpus.SetDocumentMetadata(dsel, dmeta);
 
             corpus.Save(output, false);
           }
